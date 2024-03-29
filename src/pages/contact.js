@@ -12,19 +12,19 @@ const ContactPage = ({ location, data }) => {
     <Layout location={location} title={siteTitle}>
       <h1>Contact Us</h1>
       <p>
-        Questions? Email the current leader Kate Sills at
+        Questions? Email Kate Sills at
         katelynsills@gmail.com.
       </p>
       <p>
         You can also find us on
         {` `}
-        <a href={`https://www.facebook.com/${social?.facebook || ``}`}>
+        <a href={`https://www.facebook.com${social?.facebook || ``}`}>
           Facebook
         </a>
         {` `}
         and
         {` `}
-        <a href={`https://youtube.com/${social?.youtube || ``}`}>Youtube</a>.
+        <a href={`https://youtube.com${social?.youtube || ``}`}>Youtube</a>.
       </p>
     </Layout>
   );

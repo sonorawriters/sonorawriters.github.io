@@ -69,7 +69,7 @@ exports.createPages = async (args) => {
   await putTogetherPages({
     args,
     templateLocation: `./src/templates/blog-post.js`,
-    sourceInstanceName: `event`,
+    sourceInstanceName: `events`,
   });
 };
 
@@ -79,16 +79,18 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode });
 
+    const collectionName = getNode(node.parent).sourceInstanceName;
+
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value: `/${collectionName}${value}`,
     });
 
     createNodeField({
       name: `collection`,
       node,
-      value: getNode(node.parent).sourceInstanceName,
+      value: collectionName,
     });
   }
 };

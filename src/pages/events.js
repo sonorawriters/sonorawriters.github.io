@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
-const BlogIndex = ({ data, location }) => {
+const EventIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 
@@ -64,7 +64,7 @@ const BlogIndex = ({ data, location }) => {
 
 export const Head = () => <Seo title="Sonora Community Writing Events" />;
 
-export default BlogIndex;
+export default EventIndex;
 
 export const pageQuery = graphql`
   query {
