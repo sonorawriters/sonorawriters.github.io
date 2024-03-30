@@ -97,6 +97,13 @@ code[class*="language-"], pre[class*="language-"] {
   font-size: var(--fontSize-2) !important;
 }
 
+.content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 footer {
   padding: var(--spacing-6) var(--spacing-0);
   background-color: var(--color-background-2);
