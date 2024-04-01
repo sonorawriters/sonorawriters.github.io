@@ -12,7 +12,11 @@ const BlogIndex = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <p>
-          {`We're currently working on publishing some of our short stories and poetry. More to come soon.`}
+          In 2010, the Sonora Writers Group published a collection of short
+          stories and poetry.{" "}
+          <a href="https://www.amazon.com/Second-Saturday-Blanche-Abrams/dp/188940960X">
+            The collection, titled Second Saturday, can be found on Amazon.
+          </a>
         </p>
       </Layout>
     );
@@ -62,7 +66,9 @@ const BlogIndex = ({ data, location }) => {
   );
 };
 
-export const Head = () => <Seo title="Sonora Writers Group Short Stories and Poetry" />;
+export const Head = () => (
+  <Seo title="Sonora Writers Group Short Stories and Poetry" />
+);
 
 export default BlogIndex;
 

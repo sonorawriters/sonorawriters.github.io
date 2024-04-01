@@ -11,6 +11,7 @@ const ContactPage = ({ location, data }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <h1>Contact Us</h1>
+      <p> Sign up using the form below to receive regular updates for the group.</p>
       <p>
         Questions? Email Kate Sills at
         katelynsills@gmail.com.
@@ -26,6 +27,7 @@ const ContactPage = ({ location, data }) => {
         {` `}
         <a href={`https://youtube.com${social?.youtube || ``}`}>Youtube</a>.
       </p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPAu5ekufYjh3eEgAbaUhfXLgljDTUFuKwemGkDGmQSjHYdQ/viewform?embedded=true" width="640" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </Layout>
   );
 };
