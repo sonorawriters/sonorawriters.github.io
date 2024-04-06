@@ -27,7 +27,7 @@ const ContactPage = ({ location, data }) => {
         {` `}
         <a href={`https://youtube.com${social?.youtube || ``}`}>Youtube</a>.
       </p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPAu5ekufYjh3eEgAbaUhfXLgljDTUFuKwemGkDGmQSjHYdQ/viewform?embedded=true" width="640" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPAu5ekufYjh3eEgAbaUhfXLgljDTUFuKwemGkDGmQSjHYdQ/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
     </Layout>
   );
 };
