@@ -61,8 +61,8 @@ const Layout = ({ location, title, children }) => {
       </div>
       <footer>
         <p>© {new Date().getFullYear()} Sonora Writers Group</p>
-        <div class="social-media">
-          <a href={`https://youtube.com${social?.youtube || ``}`}>
+        <div className="social-media">
+          <a aria-label="Youtube" href={`https://youtube.com${social?.youtube || ``}`}>
             <svg
               id="youtube-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ const Layout = ({ location, title, children }) => {
               />
             </svg>
           </a>
-          <a href={`https://www.facebook.com${social?.facebook || ``}`}>
+          <a aria-label="Facebook" href={`https://www.facebook.com${social?.facebook || ``}`}>
             <svg
               id="facebook-icon"
               xmlns="http://www.w3.org/2000/svg"
