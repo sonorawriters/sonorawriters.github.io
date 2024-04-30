@@ -32,3 +32,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+// trigger github pages. 
