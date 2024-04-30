@@ -90,7 +90,17 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-2);
   color: var(--color-text);
-  background-color: var(--color-background);
+  background-image: url('images/reading.jpeg');
+  background-size: cover;
+}
+
+@media (max-width:350px) { 
+  body {
+    background-image: none;
+  }
+  content {
+    background-color: var(--color-background);
+  }
 }
 
 code[class*="language-"], pre[class*="language-"] {
@@ -102,6 +112,10 @@ code[class*="language-"], pre[class*="language-"] {
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+}
+
+main {
+  background-color: var(--color-background);
 }
 
 footer {
@@ -298,7 +312,7 @@ a:focus {
 .global-header {
   text-transform: uppercase;
   font-family: var(--fontFamily-serif);
-  color: var(--color-global-header)
+  color: var(--color-global-header);
 }
 
 .main-heading {
@@ -334,13 +348,13 @@ a:focus {
   line-height: 22.4px;
   letter-spacing: -0.025em;
   font-weight: var(--fontWeight-medium);
-  color: var(--color-heading-2);
+  color: var(--color-heading);
   text-decoration-color: var(--color-global-header);
   text-transform: uppercase;
 }
 
 .main-nav a {
-  color: var(--color-heading-2);
+  color: var(--color-heading);
   text-decoration: none;
 }
 
