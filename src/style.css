@@ -94,12 +94,16 @@ body {
   background-size: cover;
 }
 
-@media (max-width:350px) { 
+
+@media (max-width: 900px) {
   body {
-    background-image: none;
+    height: 500px;
+    background-size: cover;
+    background-position: center; 
+    background-color: #D6D6D7;
   }
-  content {
-    background-color: var(--color-background);
+  .main-nav {
+    justify-content: space-evenly;
   }
 }
 
@@ -233,12 +237,18 @@ figcaption {
 
 ul,
 ol {
-  margin-left: var(--spacing-8);
+  margin-left: var(--spacing0);
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
   list-style-position: outside;
   list-style-image: none;
+}
+
+main {
+  ul {
+    margin-left: var(--spacing-8);
+  }
 }
 
 ul li,
