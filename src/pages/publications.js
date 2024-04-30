@@ -11,6 +11,7 @@ const BlogIndex = ({ data, location }) => {
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
+        <h1>Publications</h1>
         <p>
           In 2010, the Sonora Writers Group published a collection of short
           stories and poetry.{" "}
