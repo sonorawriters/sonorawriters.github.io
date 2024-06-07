@@ -8,6 +8,12 @@ const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
 
+  const iframeStyle = {
+    border: "1px solid lightgray",
+    width: "100%",
+    height: "400px",
+  };
+
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
@@ -19,6 +25,19 @@ const BlogIndex = ({ data, location }) => {
             The collection, titled Second Saturday, can be found on Amazon.
           </a>
         </p>
+        <h2>Prior Tuolumne County Literary Journals</h2>
+        <p>Thanks to Richard Close, we were able to scan a few copies of Mindprint,
+        a literary journal in Tuolumne County from the 1980s. Take a peek at the Summer 1985 edition below. (For the best reading experience, open up to full screen by clicking the rectangle in the top right hand
+        corner.)</p>
+        <br />
+  
+        <iframe
+          allowfullscreen="allowfullscreen"
+          scrolling="no"
+          className="fp-iframe"
+          style={iframeStyle}
+          src="https://heyzine.com/flip-book/2347d2c3ac.html"
+        ></iframe>
       </Layout>
     );
   }
