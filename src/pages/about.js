@@ -27,5 +27,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-
-console.log("Sonora Writers Group");
