@@ -25,15 +25,10 @@ const MeetingsPage = ({ location, data }) => {
       <p>
         {" "}
         If you'd like that all-important feedback, then bring no more than 4
-        pages, 12 pt font, double-spaced, 8 to 10 copies.
+        pages, 12 pt font, double-spaced, 10 copies.
       </p>
-      <h2 id="meeting-dates">2024 Dates</h2>
+      <h2 id="meeting-dates">Upcoming 2024 Dates</h2>
       <ul>
-        <li>Saturday, April 27, 2024</li>
-        <li>Saturday, May 11, 2024</li>
-        <li>Saturday, June 8, 2024 </li>
-        <li>Saturday, July 13, 2024</li>
-        <li>Saturday, August 10, 2024</li>
         <li>Saturday, September 14, 2024 </li>
         <li>Saturday, October 12, 2024 </li>
         <li>Saturday, November 9, 2024</li>

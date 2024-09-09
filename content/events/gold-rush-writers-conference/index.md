@@ -1,24 +1,9 @@
 ---
-title: "2024 Gold Rush Writers Conference"
+title: "2024 Gold Rush Writers Conference - Cancelled"
 date: "2024-09-27"
-description: "The 2024 Gold Rush Writers Conference will be September 27-29 at the historic Leger Hotel in picturesque Mokelumne Hill. This event is not directly affiliated with the Sonora Writers Group."
+description: "The 2024 Gold Rush Writers Conference is cancelled due to the historic Leger Hotel being unavailable."
 ---
 
-Note: This event is not directly affiliated with the Sonora Writers Group.
+The 2024 Gold Rush Writers Conference is unfortunately cancelled due to the historic Leger Hotel being unavailable.
 
-[Conference Website](https://www.goldrushwriters.com/)
-
-## More information
-
-Come join the annual Gold Rush Writers Conference, Sept 27th, 28th, & 29th in 2024 , at the historic Leger Hotel in picturesque Mokelumne Hill where writing professionals will guide you to a publishing bonanza through a series of panels, specialty talks, workshops, and celebrity lectures.
-
-Go one-on-one with successful writers in the field. The conference includes a picnic supper Friday evening, Saturday dinner and Sunday lunch.
-NOTE! Change of date to Sept was caused by hotel renovation!
-
-Contact: <manzanitawp@gmail.com>
-<br/>
-209-754-0577
-<br/>
-209 286-8012
-
-[Conference Website](https://www.goldrushwriters.com/)
+For more information, please see the [conference website](https://www.goldrushwriters.com/).
