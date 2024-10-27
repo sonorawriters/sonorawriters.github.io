@@ -50,7 +50,7 @@ const Layout = ({ location, title, children }) => {
               <Link to="/events">Events</Link>
             </li>
             <li>
-              <Link to="/publications">Publications</Link>
+              <Link to="/book">Book</Link>
             </li>
             <li>
               <Link to="/contact">Contact</Link>
