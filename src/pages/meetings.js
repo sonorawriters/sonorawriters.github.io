@@ -14,23 +14,32 @@ const MeetingsPage = ({ location, data }) => {
         critique. Occasionally, our meeting date changes due to room scheduling
         conflicts. See the{" "}
         <a href="#meeting-dates">meeting dates for 2024 below</a>.
-        <br />
-        <br />
-        <b>Jamestown Community Hall</b>
-        <br /> 18250 Main St.
-        <br /> Jamestown, CA 95327
-        <br />
-        <a href="https://maps.app.goo.gl/RX6uZ3Fy43uXdT8e8">Google Maps</a>
       </p>
       <p>
         {" "}
         If you'd like that all-important feedback, then bring no more than 4
         pages, 12 pt font, double-spaced, 10 copies.
       </p>
+      <p>
+        <b>Note: This is our new meeting location as of Nov 2024!</b>
+        <br />
+        23685 Marble Quarry Rd
+        <br />
+        Columbia, CA 95310
+        <br />
+        <a href="https://maps.app.goo.gl/qwdtyF9ViTyyPAmn9">Google Maps</a>
+      </p>
+      <p>
+        <b>Directions</b>
+        <br />
+        Take Parrotts Ferry Rd to Marble Quarry Road, make a right into the Gold
+        Springs Estates complex. Stay on the road as it turns to the right&
+        watch for Club House on your left. Parking in front, to the left of the
+        building & another lot across the street.
+      </p>
+
       <h2 id="meeting-dates">Upcoming 2024 Dates</h2>
       <ul>
-        <li>Saturday, September 14, 2024 </li>
-        <li>Saturday, October 12, 2024 </li>
         <li>Saturday, November 9, 2024</li>
         <li>Saturday, December 7, 2024</li>
       </ul>

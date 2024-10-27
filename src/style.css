@@ -90,8 +90,10 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-2);
   color: var(--color-text);
-  background-image: url('images/reading.jpeg');
-  background-size: cover;
+  background-image: url('images/website-background-mid.webp');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
@@ -139,6 +141,27 @@ hr {
   background: var(--color-text);
   height: 1px;
   border: 0;
+}
+
+button {
+  justify-content: center;
+  padding: 10px;
+  color: var(--color-background);
+  background-color: var(--color-accent);
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: var(--fontFamily-sans);
+  margin:0 auto;
+  display: block;
+}
+
+button > a {
+  color: var(--color-background);
+  text-align: center;
+  text-decoration: none;
 }
 
 /* Heading */
@@ -331,7 +354,7 @@ a:focus {
   font-size: var(--fontSize-7);
   margin: 0;
   font-family: var(--fontFamily-serif);
-  color: var(--color-accent)
+  color: var(--color-background)
 }
 
 .post-list-item {
@@ -367,7 +390,7 @@ a:focus {
 }
 
 .main-nav a {
-  color: var(--color-heading);
+  color: var(--color-background);
   text-decoration: none;
 }
 
