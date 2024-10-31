@@ -22,7 +22,7 @@ const Book = ({ data, location }) => {
         reflect, and return again and again.
       </p>
       <p>
-        <i>When Rain Will Come</i> will be released in November 2024. Sign up
+        <i>When Rain Will Come</i> will be released November 1st, 2024. Sign up
         below to get an email notification when the book is released.
       </p>
       <button>
