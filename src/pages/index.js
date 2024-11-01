@@ -11,6 +11,11 @@ const HomePage = ({ location, data }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <img width="100%" src={bookAd}></img>
+      <button>
+        <a href="https://www.lulu.com/shop/amylee-and-sara-dykman-and-blanche-abrams-and-kate-sills/when-rain-will-come/paperback/product-84n7ygd.html?page=1&pageSize=4">
+          BUY NOW
+        </a>
+      </button>
       <h1>When Rain Will Come</h1>
       <p>
         Whether you crave the piercing insight of a personal essay, the allure
@@ -22,12 +27,12 @@ const HomePage = ({ location, data }) => {
         reflect, and return again and again.
       </p>
       <p>
-        <i>When Rain Will Come</i> will be released November 1st, 2024. Sign up
-        below to get an email notification when the book is released.
+        <i>When Rain Will Come</i> was released on November 1st, 2024. Grab your
+        copy from the Lulu Bookstore today!
       </p>
       <button>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdY0KD0ad2c8dJJqeMiVqi_8gsLpkI8utnFxs1VmVJ9Sjqexw/viewform?usp=sf_link">
-          GET NOTIFIED
+        <a href="https://www.lulu.com/shop/amylee-and-sara-dykman-and-blanche-abrams-and-kate-sills/when-rain-will-come/paperback/product-84n7ygd.html?page=1&pageSize=4">
+          GET YOUR COPY
         </a>
       </button>
       <br />
