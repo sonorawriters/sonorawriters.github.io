@@ -39,7 +39,7 @@ const MeetingsPage = ({ location, data }) => {
       </p>
       <h2 id="meeting-dates">Upcoming 2025 Dates</h2>
       <ul>
-        <li>Saturday, January 11, 2025</li>
+        <li>Saturday, Feb 8th, 2025</li>
       </ul>
       <iframe
         id="googlecalendar"
