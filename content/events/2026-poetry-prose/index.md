@@ -7,9 +7,10 @@ description: "Join us for a night of poetry and prose at four different location
 
 # POETRY & PROSE CRAWL
 
-__Friday, June 5th, 2026 6-8 PM__
+Friday, June 5th, 2026 6-8 PM
 
-__Revive Coffee – 81 S. Washington St., Sonora.__
+__Revive Coffee – 81 S. Washington St., Sonora.__<br>
+
 Poetry & Prose – Adult<br>
 Open Mic spoken/written word – 6 minutes max.<br>
 MC’d by ayreAnna
