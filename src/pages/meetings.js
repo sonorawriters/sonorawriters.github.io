@@ -25,11 +25,9 @@ const MeetingsPage = ({ location, data }) => {
         <span class="c5">&nbsp;10:30-12:30</span>
       </b>
       <p>
-        <span>Gold Spring Townhomes Club House</span>
-        <br/>
-        <span class="c2">
-          23685 Marble Quarry Road, Columbia, CA 95310
-        </span>
+        <span>Goodness Caf&eacute;,1 S. Washington St</span>
+        <span class="c5">.,</span>
+        <span class="c2">&nbsp;Sonora, CA 95370</span>
       </p>
       <b>
         <span class="c5">Saturday May 9</span>
@@ -55,10 +53,9 @@ const MeetingsPage = ({ location, data }) => {
         <span class="c5">&nbsp;10:30-12:30,</span>
       </b>
       <p>
-        <span class="c2">
-          Gold Springs Townhomes Club House, 23685 Marble Quarry Road, Columbia,
-          CA 95370
-        </span>
+        <span>Goodness Caf&eacute;,1 S. Washington St</span>
+        <span class="c5">.,</span>
+        <span class="c2">&nbsp;Sonora, CA 95370</span>
       </p>
       <b>
         <span class="c5">Saturday August 8</span>
