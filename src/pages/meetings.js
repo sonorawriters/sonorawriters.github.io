@@ -30,14 +30,31 @@ const MeetingsPage = ({ location, data }) => {
         <span class="c2">&nbsp;Sonora, CA 95370</span>
       </p>
       <b>
-        <span class="c5">Saturday May 9</span>
+        <span class="c5">Saturday May 16</span>
         <span class="c3">th</span>
         <span class="c0">&nbsp;10:30-12:30 </span>
       </b>
       <p>
-        <span>Goodness Caf&eacute;,1 S. Washington St</span>
-        <span class="c5">.,</span>
-        <span class="c2">&nbsp;Sonora, CA 95370</span>
+        <span>Goodness Caf&eacute;, 1 S. Washington St.</span>
+        <span class="c2">
+          {" "}
+          (Corner of Washington &amp; Jackson), Sonora, CA 95370
+        </span>
+      </p>
+      <p>
+        Join us for coffee, breakfast bagels, and the latest
+        works-in-progress&mdash;hard-hitting, locally sourced poetry and prose.
+        New writers are absolutely welcome&mdash;first drafts included.
+      </p>
+      <h2>SWG Officer Elections</h2>
+      <p>
+        At this meeting, we will be holding elections for Sonora Writers Group
+        officers. All three positions&mdash;Chair, Treasurer, and
+        Secretary&mdash;are up for election.
+      </p>
+      <p>
+        We&rsquo;ll also be discussing any last-minute details for the upcoming
+        Poetry &amp; Prose Crawl.
       </p>
       <b>
         <span class="c5">Saturday June 13</span>
