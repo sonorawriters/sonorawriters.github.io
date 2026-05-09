@@ -52,7 +52,7 @@ Watch young poets and storytellers compete in a high-energy slam for a **$50 cas
 * **Time Limits:**   
   * Poetry: up to 5 minutes   
   * Prose/Flash Fiction: up to 7 minutes   
-* **Submission Requirement:** All pieces must be printed and reviewed for language and subject matter prior to performance.   
+* **Submission Requirement:** All pieces must be printed and reviewed for language and subject matter prior to performance. Send a copy of your poem or prose to huguesnick@gmail.com.   
 * **Entry Limits:**   
   * Up to 3 poems per participant   
   * Up to 2 prose/flash fiction pieces per participant 
