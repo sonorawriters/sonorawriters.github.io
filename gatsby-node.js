@@ -57,8 +57,8 @@ const putTogetherPages = async ({
         component: template,
         context: {
           id: item.id,
-          previousItemId,
-          nextItemId,
+          previousPostId: previousItemId,
+          nextPostId: nextItemId,
         },
       });
     });
