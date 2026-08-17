@@ -4,6 +4,23 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
+// When TCAA sends a new newsletter, save it under static/newsletters/
+// (see static/newsletters/tcaa-summer-2026.html) and update these two lines.
+const newsletter = {
+  href: "/newsletters/tcaa-summer-2026.html",
+  season: "Summer 2026",
+};
+
+const NewsletterCallout = () => (
+  <aside className="newsletter-callout">
+    <p>
+      Want more arts and culture? Sonora Writers Group is proud to support the
+      Tuolumne County Arts Alliance. Read their{" "}
+      <a href={newsletter.href}>{newsletter.season} newsletter here</a>.
+    </p>
+  </aside>
+);
+
 const EventIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`;
   const posts = data.allMarkdownRemark.nodes;
@@ -12,6 +29,7 @@ const EventIndex = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <h1>Community Events</h1>
+        <NewsletterCallout />
         <p>{`More community events coming soon.`}</p>
       </Layout>
     );
@@ -20,6 +38,7 @@ const EventIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <h1>Community Events</h1>
+      <NewsletterCallout />
       <ol style={{ listStyle: `none` }}>
         {posts.map((post) => {
           const title = post.frontmatter.title || post.fields.slug;

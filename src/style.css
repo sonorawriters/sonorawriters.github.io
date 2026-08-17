@@ -447,3 +447,14 @@ a:focus {
   list-style: none;
   padding: 0px;
 }
+
+.newsletter-callout {
+  border-left: 4px solid var(--color-accent);
+  background-color: var(--color-primary);
+  padding: var(--spacing-4) var(--spacing-6);
+  margin-bottom: var(--spacing-8);
+}
+
+.newsletter-callout p {
+  margin-bottom: var(--spacing-0);
+}
