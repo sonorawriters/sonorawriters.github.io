@@ -6,7 +6,7 @@ description: "Create a Poetography piece of your own with artist, writer & facil
 
 ![2nd Saturday Art Night Flyer](art-night-flyer.jpg)
 
-**Join us for 2nd Saturday Art Night — MLAA Art Party**
+**Join us for 2nd Saturday Art Night: MLAA Art Party**
 
 **Saturday, November 14, 2026, 5:00–6:00 p.m.**
 
