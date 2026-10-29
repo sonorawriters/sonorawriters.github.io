@@ -1,5 +1,5 @@
 ---
-title: "2nd Saturday Art Night: MLAA Art Party — November 14th"
+title: "2nd Saturday Art Night: MLAA Art Party, November 14th"
 date: "2026-11-14"
 description: "Create a Poetography piece of your own with artist, writer & facilitator Marianne Hale Levitan. Saturday, November 14th, 5:00–6:00 p.m. at Goodness Cafe, 1 S. Washington St., Sonora. Instruction and materials are FREE!"
 ---
